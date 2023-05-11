@@ -1,0 +1,85 @@
+.parent-1{
+    // height: 100svh;
+    height: auto;
+    background-color: $secondary-color-black;
+}
+
+
+nav{
+
+    padding-top: 3rem;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+    color: $primary-color;
+
+    ul{
+        display: flex;
+        gap: 3rem;
+
+
+
+        a{
+            text-decoration: none;
+            color:$primary-color ;
+        
+
+        &::after{
+            content: '';
+            height: 2px;
+            background-color: $primary-color;
+            display: block;
+            width: 0%;
+            // margin: auto;
+        }
+        &:hover::after{
+            width: 100%;
+            transition: 0.8s;
+        }
+    }
+    }
+}
+
+
+.section-1-1{
+    width: 100%;
+    height:70vh;
+ 
+    position: relative;
+
+
+
+    .round-box{
+
+   
+
+        color: $secondary-color-black;
+        font-weight: 700;
+        
+       
+       width: fit-content;
+       height: fit-content;
+      
+      
+       
+       
+ 
+       background-color: $primary-color;
+       border: 1px white solid;
+       border-radius: 50%;
+       padding: 2rem 3rem;
+       margin: auto;
+
+       box-shadow: 0px 0px 10px 0px $primary-color;
+
+       
+
+    }
+   #movableDiv{
+    position: absolute;
+    margin: auto;
+   
+   }
+
+}
