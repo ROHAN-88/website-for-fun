@@ -1,31 +1,3 @@
-// var movableDiv = document.getElementById("movableDiv");
-// var isDragging = false;
-
-// // Add event listeners
-// movableDiv.addEventListener("mousedown", startDragging);
-// movableDiv.addEventListener("mousemove", drag);
-// movableDiv.addEventListener("mouseup", stopDragging);
-
-// // Function to start dragging
-// function startDragging(event) {
-//   isDragging = true;
-// }
-
-// // Function to stop dragging
-// function stopDragging(event) {
-//   isDragging = false;
-// }
-
-// // Function to handle dragging
-// function drag(event) {
-//   if (isDragging) {
-//     // Set the new position of the div
-//     movableDiv.style.left = (event.clientX - (movableDiv.offsetWidth / 2)) + "px";
-//     movableDiv.style.top = (event.clientY - (movableDiv.offsetHeight / 2)) + "px";
-//   }
-// }
-
-
 var movableDiv = document.getElementById("movableDiv");
 var parentDiv = document.getElementById("parentDiv");
 
@@ -46,3 +18,9 @@ function moveDiv(event) {
     movableDiv.style.top = newY + "px";
   }
 }
+
+//The above source-code is for the moveable div 
+
+
+
+

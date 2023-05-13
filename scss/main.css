@@ -5,6 +5,10 @@
   list-style: none;
 }
 
+body {
+  background-color: #f4f4f4;
+}
+
 .parent-1 {
   height: auto;
   background-color: #252422;
@@ -71,10 +75,14 @@ nav ul a:hover::after {
   min-height: 70vh;
 }
 
-.subdiv-1-1 {
-  display: flex;
-  justify-content: center;
-  align-content: center;
+.subdiv-1-1 button {
+  border-radius: 10px;
+  font-size: 17px;
+  padding: 10px 20px;
+}
+.subdiv-1-1 button:hover {
+  background: #252422;
+  color: #f4f4f4;
 }
 
 .subdiv-1-2 {
@@ -85,4 +93,34 @@ nav ul a:hover::after {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 0px;
+}
+
+.parent-3 a {
+  text-decoration: none;
+  background-color: transparent;
+  color: #252422;
+}
+.parent-3 h3::after {
+  content: "";
+  background: #252422;
+  display: block;
+  width: 0%;
+  height: 2px;
+}
+.parent-3 a:hover h3::after {
+  width: 20%;
+  transition: 0.8s;
+}
+.parent-3 .card {
+  display: flex;
+  flex-direction: column;
+  width: 411px;
+}
+.parent-3 .card h5 {
+  text-align: start;
+}
+
+footer {
+  height: 100vh;
 }/*# sourceMappingURL=main.css.map */

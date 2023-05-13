@@ -4,10 +4,22 @@
 
 
 .subdiv-1-1{
-  display: flex;
-  justify-content: center;
-  align-content: center;
+    
 
+    button{
+        border-radius: 10px;
+
+        font-size: 17px;
+        padding: 10px 20px;
+
+
+        &:hover{
+
+            background:$secondary-color-black;
+            color: $primary-color;
+            
+        }
+    }
 
 }
 
@@ -22,5 +34,65 @@
     display: flex;
    justify-content: center;
    align-items: center;
+ 
 
+   margin-top: 0px;
+}
+
+
+
+
+.parent-3{
+   
+
+
+    a{
+        text-decoration: none;
+        background-color: transparent;
+
+        
+            color:$secondary-color-black ;
+
+        
+    }
+
+            h3::after{
+            content: '';
+            background: $secondary-color-black;
+            display: block;
+            width: 0%;
+            height: 2px;
+            
+
+        }
+
+        a:hover h3::after{
+            width: 20%;
+            transition: 0.8s;
+        }
+    
+
+    .card{
+        display: flex;
+        flex-direction: column;
+        width: 411px;
+    
+
+        h5{
+          
+            text-align: start;
+            
+
+        }
+    }
+}
+
+
+
+
+//start  of footer 
+
+
+footer{
+    height: 100vh;
 }
