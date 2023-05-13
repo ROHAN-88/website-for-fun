@@ -64,7 +64,6 @@ nav ul a:hover::after {
   position: absolute;
   left: 50%;
   top: 30%;
-  cursor: none;
   text-align: center;
 }
 .section-1-1 #movableDiv p {

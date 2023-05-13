@@ -22,5 +22,8 @@ function moveDiv(event) {
 //The above source-code is for the moveable div 
 
 
-
+function hello(){
+  console.log("hello");
+  alert("CLICKED");
+}
 
