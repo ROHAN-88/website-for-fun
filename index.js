@@ -27,3 +27,45 @@ function hello(){
   alert("CLICKED");
 }
 
+//this is for owl coursoul
+// var owl = $('.owl-carousel');
+// owl.owlCarousel({
+//     loop:false,
+//     nav:true,
+//     margin:10,
+//     responsive:{
+//         0:{
+//             items:1
+//         },
+//         600:{
+//             items:3
+//         },            
+//         960:{
+//             items:5
+//         },
+//         1200:{
+//             items:6
+//         }
+//     }
+// });
+
+$('.owl-carousel').owlCarousel({
+  loop:false,
+  margin:80,
+  responsiveClass:true,
+  responsive:{
+      0:{
+          items:1,
+          nav:true
+      },
+      600:{
+          items:3,
+          nav:false
+      },
+      1000:{
+          items:5,
+          nav:true,
+          loop:false
+      }
+  }
+})

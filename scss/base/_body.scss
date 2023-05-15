@@ -17,6 +17,7 @@
 
             background:$secondary-color-black;
             color: $primary-color;
+            transition: 0.8s;
             
         }
     }
@@ -44,7 +45,7 @@
 
 .parent-3{
    
-
+   
 
     a{
         text-decoration: none;
@@ -72,11 +73,21 @@
         }
     
 
+
+
+
     .card{
         display: flex;
         flex-direction: column;
-        width: 411px;
-    
+
+        width: fit-content;
+
+        
+        img{
+            border-radius: 20px 20px 0px 0px;
+        }
+
+        border-radius:20px ;
 
         h5{
           
@@ -85,9 +96,48 @@
 
         }
     }
+
+   .card:hover img {
+    width: 420px;
+   }
+
+
 }
 
 
+
+
+
+// parent-4 ///////////////////
+
+.parent-4{
+    margin: 7rem 0px 0px 7rem;
+}
+
+.scroll{
+    margin-top: 5rem;
+
+
+
+}
+
+#scroll-cards{
+    display: flex;
+    flex-direction: column;
+
+    gap: 6rem;
+
+    color: $secondary-color-black;
+
+      h2::after{
+        content: '';
+        height: 2px;
+        width: 20%;
+        background: $secondary-color-black;
+        display: block;
+      }
+
+}
 
 
 //start  of footer 

@@ -64,6 +64,7 @@ nav ul a:hover::after {
   position: absolute;
   left: 50%;
   top: 30%;
+  cursor: none;
   text-align: center;
 }
 .section-1-1 #movableDiv p {
@@ -82,6 +83,7 @@ nav ul a:hover::after {
 .subdiv-1-1 button:hover {
   background: #252422;
   color: #f4f4f4;
+  transition: 0.8s;
 }
 
 .subdiv-1-2 {
@@ -114,10 +116,40 @@ nav ul a:hover::after {
 .parent-3 .card {
   display: flex;
   flex-direction: column;
-  width: 411px;
+  width: -moz-fit-content;
+  width: fit-content;
+  border-radius: 20px;
+}
+.parent-3 .card img {
+  border-radius: 20px 20px 0px 0px;
 }
 .parent-3 .card h5 {
   text-align: start;
+}
+.parent-3 .card:hover img {
+  width: 420px;
+}
+
+.parent-4 {
+  margin: 7rem 0px 0px 7rem;
+}
+
+.scroll {
+  margin-top: 5rem;
+}
+
+#scroll-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+  color: #252422;
+}
+#scroll-cards h2::after {
+  content: "";
+  height: 2px;
+  width: 20%;
+  background: #252422;
+  display: block;
 }
 
 footer {
