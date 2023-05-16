@@ -64,6 +64,7 @@ nav ul a:hover::after {
   position: absolute;
   left: 50%;
   top: 30%;
+  z-index: 2;
   cursor: none;
   text-align: center;
 }
@@ -142,6 +143,8 @@ nav ul a:hover::after {
   display: flex;
   flex-direction: column;
   gap: 6rem;
+  height: auto;
+  text-align: start;
   color: #252422;
 }
 #scroll-cards h2::after {
@@ -150,6 +153,14 @@ nav ul a:hover::after {
   width: 20%;
   background: #252422;
   display: block;
+}
+
+.owl-item {
+  min-width: 300px;
+}
+
+.owl-carousel .item {
+  padding: 2rem;
 }
 
 footer {

@@ -112,6 +112,9 @@
 
 .parent-4{
     margin: 7rem 0px 0px 7rem;
+ 
+
+
 }
 
 .scroll{
@@ -126,7 +129,12 @@
     flex-direction: column;
 
     gap: 6rem;
+    
+    height: auto;
+    
 
+
+    text-align: start;
     color: $secondary-color-black;
 
       h2::after{
@@ -138,6 +146,16 @@
       }
 
 }
+.owl-item{
+    min-width: 300px;
+} 
+.owl-carousel .item{
+    // border: 1px black solid;
+    padding: 2rem;
+}
+
+
+
 
 
 //start  of footer 
