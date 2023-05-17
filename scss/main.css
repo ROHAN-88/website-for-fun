@@ -172,6 +172,7 @@ nav ul a:hover::after {
   color: #252422;
 }
 .parent-5 .card-5 {
+  margin-top: 2rem;
   display: flex;
   justify-content: center;
   gap: 2rem;
