@@ -156,6 +156,61 @@
 
 
 
+//parent-5
+ 
+.parent-5{
+ 
+  height: auto;
+  margin-top: 10rem;
+
+  a{
+    text-decoration: none;
+    color: $secondary-color-black;
+  }
+
+  .card-5{
+
+   display: flex;
+   justify-content: center;
+
+   gap: 2rem;
+   align-items: center;
+
+     img{
+        width: 410px;
+        height: 288px;
+     }
+     
+     .text-5{
+        align-self: flex-start;
+        justify-self: flex-start;
+     }
+    
+   .arrow-5{
+    gap: 5rem;
+    align-self: flex-start;
+   }     
+}
+
+
+  a:hover{
+    text-decoration:underline;
+  
+
+   }
+
+   a:hover img{
+      width: 420px;
+      height: 290px;
+
+      transition: 0.7s;
+   }
+
+}
+
+
+
+
 
 
 //start  of footer 

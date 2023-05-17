@@ -24,7 +24,7 @@ function moveDiv(event) {
 
 function hello(){
   console.log("hello");
-  alert("CLICKED");
+  alert("Video is played");
 }
 
 //this is for owl coursoul

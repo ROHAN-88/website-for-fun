@@ -43,7 +43,7 @@ nav ul a:hover::after {
 
 .section-1-1 {
   width: 100%;
-  height: 70vh;
+  height: 100vh;
   color: #f4f4f4;
   position: relative;
 }
@@ -161,6 +161,41 @@ nav ul a:hover::after {
 
 .owl-carousel .item {
   padding: 2rem;
+}
+
+.parent-5 {
+  height: auto;
+  margin-top: 10rem;
+}
+.parent-5 a {
+  text-decoration: none;
+  color: #252422;
+}
+.parent-5 .card-5 {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  align-items: center;
+}
+.parent-5 .card-5 img {
+  width: 410px;
+  height: 288px;
+}
+.parent-5 .card-5 .text-5 {
+  align-self: flex-start;
+  justify-self: flex-start;
+}
+.parent-5 .card-5 .arrow-5 {
+  gap: 5rem;
+  align-self: flex-start;
+}
+.parent-5 a:hover {
+  text-decoration: underline;
+}
+.parent-5 a:hover img {
+  width: 420px;
+  height: 290px;
+  transition: 0.7s;
 }
 
 footer {
