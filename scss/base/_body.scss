@@ -218,5 +218,69 @@
 
 
 footer{
+   
+    margin-top: 3rem;
+    color: $primary-color;
     height: 100vh;
+    padding: 5rem;
+  background-color: $secondary-color-black;
+
+a{
+    color: $primary-color;
+}
+
+
+
+     .email{
+        border-bottom: 1px gray solid;
+        width: fit-content;
+        input{
+            border: none ;
+            // border-bottom:1px gray solid ;
+            background: $secondary-color-black;
+           padding:1rem 0px ;
+            width: 30rem;
+        }
+     }
+
+
+
+     .footer-row-2{
+        margin-top:5rem ;
+
+
+
+
+
+
+        .footer-col-2{
+            display: flex;
+
+            ul{
+                li{
+                    font-size: 20px;
+                }
+            }
+
+
+            .social{
+                a{
+                    text-decoration: none;
+                
+                    &:hover{
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+     }
+
+}
+
+.signature{
+    text-align: center;
+    padding: 0.8rem;
+    background-color: #1b1917;
+    color: $primary-color;
+    
 }

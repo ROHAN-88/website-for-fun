@@ -28,6 +28,7 @@ nav ul {
 nav ul a {
   text-decoration: none;
   color: #f4f4f4;
+  font-weight: 600;
 }
 nav ul a::after {
   content: "";
@@ -43,7 +44,7 @@ nav ul a:hover::after {
 
 .section-1-1 {
   width: 100%;
-  height: 100vh;
+  height: 89vh;
   color: #f4f4f4;
   position: relative;
 }
@@ -200,5 +201,45 @@ nav ul a:hover::after {
 }
 
 footer {
+  margin-top: 3rem;
+  color: #f4f4f4;
   height: 100vh;
+  padding: 5rem;
+  background-color: #252422;
+}
+footer a {
+  color: #f4f4f4;
+}
+footer .email {
+  border-bottom: 1px gray solid;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+footer .email input {
+  border: none;
+  background: #252422;
+  padding: 1rem 0px;
+  width: 30rem;
+}
+footer .footer-row-2 {
+  margin-top: 5rem;
+}
+footer .footer-row-2 .footer-col-2 {
+  display: flex;
+}
+footer .footer-row-2 .footer-col-2 ul li {
+  font-size: 20px;
+}
+footer .footer-row-2 .footer-col-2 .social a {
+  text-decoration: none;
+}
+footer .footer-row-2 .footer-col-2 .social a:hover {
+  text-decoration: underline;
+}
+
+.signature {
+  text-align: center;
+  padding: 0.8rem;
+  background-color: #1b1917;
+  color: #f4f4f4;
 }/*# sourceMappingURL=main.css.map */
